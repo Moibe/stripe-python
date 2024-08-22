@@ -2,7 +2,6 @@ import stripe
 
 stripe.api_key = "sk_test_UEqlnnbMITO2SqRQ10ZJh33P"
 
-
 #Aquí estamos creando un objeto que será nuestra suscripción.
 starter_subscription = stripe.Product.create(
   name="Starter Subscription",
